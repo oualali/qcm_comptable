@@ -68,17 +68,17 @@ export default function App() {
 			questionText: 'Donner les 4 notions principales qui définissent la comptabilité générale ?',
 			
 			answerOptions: [
-				{ answerText: 'analyse des coûts, calcul des écarts, le coût de revient, système informatique', isCorrect: false },
-				{ answerText: ' système d\'information, mémoire, flux, techniques', isCorrect: true },
+				{ answerText: 'Analyse des coûts, calcul des écarts, le coût de revient, système informatique', isCorrect: false },
+				{ answerText: 'Système d\'information, mémoire, flux, techniques', isCorrect: true },
 			],
 		},
 		{
 			questionText: 'Citer les étapes de la création d\'une entreprise ?',
 			
 			answerOptions: [
-				{ answerText: 'réunir des fonds, acquir des facteurs de production, consommer les facteurs de production, commercialiser et créer de nouvelles richesses', isCorrect: true },
-				{ answerText: 'immobiliser des ressources, produire, créer des richesses et capitaliser', isCorrect: false },
-				{ answerText: 'emprunter, produire, s\'enrichir et ré investir', isCorrect: false },
+				{ answerText: 'Réunir des fonds, acquir des facteurs de production, consommer les facteurs de production, commercialiser et créer de nouvelles richesses', isCorrect: true },
+				{ answerText: 'Immobiliser des ressources, produire, créer des richesses et capitaliser', isCorrect: false },
+				{ answerText: 'Emprunter, produire, s\'enrichir et ré investir', isCorrect: false },
 
 			],
 		},
@@ -87,7 +87,7 @@ export default function App() {
 			
 			answerOptions: [
 				{ answerText: 'dettes, trésorerie', isCorrect: false },
-				{ answerText: 'stock /dettes/créances', isCorrect: false },
+				{ answerText: 'stock /dettes /créances', isCorrect: false },
 				{ answerText: 'dettes, immobilisation et capital', isCorrect: true },
 
 			],
@@ -138,7 +138,7 @@ export default function App() {
 		<div className='app'>
 			{showScore ? (
 				<div className='score-section'>
-					You scored {score} out of {questions.length}
+					Votre score {score} sur {questions.length}
 				</div>
 			) : (
 				<>
