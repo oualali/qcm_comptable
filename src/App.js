@@ -93,18 +93,18 @@ export default function App() {
 			],
 		},
 		{
-			questionText: 'quelles sont les 3 finalités comptables ?',
+			questionText: 'Quelles sont les 3 finalités comptables ?',
 			
 			answerOptions: [
-				{ answerText: 'prudence', isCorrect: false },
-				{ answerText: 'nominalisme', isCorrect: false },
-				{ answerText: 'spécialisation', isCorrect: false },
-				{ answerText: 'l\'image fidèle', isCorrect: true },
+				{ answerText: 'Prudence', isCorrect: false },
+				{ answerText: 'Nominalisme', isCorrect: false },
+				{ answerText: 'Spécialisation', isCorrect: false },
+				{ answerText: 'L\'image fidèle', isCorrect: true },
 
 			],
 		},
 		{
-			questionText: 'quel est l\'organe législatif en terme de comptabilité? ',
+			questionText: 'Quel est l\'organe législatif en terme de comptabilité? ',
 			
 			answerOptions: [
 				{ answerText: 'OEC', isCorrect: false },
